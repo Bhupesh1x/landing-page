@@ -14,3 +14,30 @@ export const requirementListData = [
   "Sit back for multiple suppliers to contact you.",
   "Choose among the suppliers based on the ratings and reviews.",
 ];
+
+export const howItWorksData = [
+  {
+    title: "Select Your Role and Sign Up",
+    iconUrl: "/icons/user-icon.svg",
+  },
+  {
+    title: "Buyers Post Your Requirements",
+    iconUrl: "/icons/file-icon.svg",
+  },
+  {
+    title: "Review, Select, and Contact the Best Suppliers",
+    iconUrl: "/icons/review-icon.svg",
+  },
+  {
+    title: "Suppliers Complete your profile and get notified for opportunities",
+    iconUrl: "/icons/supplier-icon.svg",
+  },
+  {
+    title: "Contact to Buyers and Share your Quote for the service",
+    iconUrl: "/icons/quote-icon.svg",
+  },
+  {
+    title: "Both the Parties can Connect and Make Business Leave a Feedback",
+    iconUrl: "/icons/parties-icon.svg",
+  },
+];
