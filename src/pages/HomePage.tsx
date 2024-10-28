@@ -1,6 +1,7 @@
 import { Hero } from "../components/Hero/Hero";
 import { Navbar } from "../components/navbar/Navbar";
 import { ReadyToDiveSection } from "../components/ReadyToDiveSection/ReadyToDiveSection";
+import { RequirementsSection } from "../components/RequirementsSection/RequirementsSection";
 
 function HomePage() {
   return (
@@ -8,6 +9,7 @@ function HomePage() {
       <Navbar />
       <Hero />
       <ReadyToDiveSection />
+      <RequirementsSection />
     </div>
   );
 }
