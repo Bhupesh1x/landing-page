@@ -2,7 +2,7 @@
 
 import { forwardRef } from "react";
 
-export type ButtonVariant = "primary" | "outline";
+export type ButtonVariant = "primary" | "secondary" | "outline";
 
 export interface ButtonProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement> {
@@ -34,6 +34,10 @@ export const Button = forwardRef<HTMLButtonElement, ButtonProps>(
       case "outline":
         variantStyles =
           "bg-transparent border !border-[#00732F] text-[#00732F]";
+        break;
+      case "secondary":
+        variantStyles =
+          "bg-[#EB7150] !border-[#EB7150] text-white hover:bg-opacity-80";
         break;
       default:
         variantStyles = "";

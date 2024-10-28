@@ -1,3 +1,4 @@
+import { GetVerifiedSection } from "../components/GetVerifiedSection/GetVerifiedSection";
 import { Hero } from "../components/Hero/Hero";
 import { Navbar } from "../components/navbar/Navbar";
 import { ReadyToDiveSection } from "../components/ReadyToDiveSection/ReadyToDiveSection";
@@ -10,6 +11,7 @@ function HomePage() {
       <Hero />
       <ReadyToDiveSection />
       <RequirementsSection />
+      <GetVerifiedSection />
     </div>
   );
 }
