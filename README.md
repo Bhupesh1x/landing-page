@@ -1,4 +1,4 @@
-# Landing Page Assignment
+# Landing Page
 
 ## Created using React + TypeScript + Vite + Tailwind Css
 
