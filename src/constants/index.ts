@@ -41,3 +41,14 @@ export const howItWorksData = [
     iconUrl: "/icons/parties-icon.svg",
   },
 ];
+
+export const footerSocialIcons = [
+  { iconUrl: "/icons/linkedin-icon.svg", iconTitle: "LinkedIn" },
+  { iconUrl: "/icons/twitter-icon.svg", iconTitle: "Twitter" },
+  { iconUrl: "/icons/facebook-icon.svg", iconTitle: "Facebook" },
+  { iconUrl: "/icons/instagram-icon.svg", iconTitle: "Instagram" },
+];
+
+export const footerCompanyLinks = ["About", "FAQ"];
+export const footerTermsLinks = ["Data privacy", "Terms", "Accessibility"];
+export const footerRelatedLinks = ["Find Buyer", "Feedback"];

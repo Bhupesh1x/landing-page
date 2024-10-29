@@ -1,3 +1,4 @@
+import { Footer } from "../components/Footer/Footer";
 import { GetVerifiedSection } from "../components/GetVerifiedSection/GetVerifiedSection";
 import { Hero } from "../components/Hero/Hero";
 import { HowItWorksSection } from "../components/HowItWorksSection/HowItWorksSection";
@@ -14,6 +15,7 @@ function HomePage() {
       <RequirementsSection />
       <GetVerifiedSection />
       <HowItWorksSection />
+      <Footer />
     </div>
   );
 }
