@@ -18,7 +18,7 @@ export function Navbar() {
             </p>
             <img src="/icons/arrow-down-icon.svg" alt="" />
           </div>
-          <Button variant="outline" className="min-w-[193px]">
+          <Button variant="outline" className="hidden sm:block min-w-[193px]">
             Login / Sign Up
           </Button>
         </nav>

@@ -8,7 +8,7 @@ import { RequirementsSection } from "../components/RequirementsSection/Requireme
 
 function HomePage() {
   return (
-    <div className="h-full w-full">
+    <div>
       <Navbar />
       <Hero />
       <ReadyToDiveSection />

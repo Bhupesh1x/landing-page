@@ -6,9 +6,9 @@ import { LocationCard } from "./LocationCard";
 export function ReadyToDiveSection() {
   return (
     <section className="py-20 main-container">
-      <div className="flex flex-col md:flex-row items-center gap-8 md:gap-[7rem]">
+      <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-[7rem]">
         {/* Left Section */}
-        <div className="flex-1 space-y-6 text-center md:text-left">
+        <div className="flex-1 space-y-6 text-center lg:text-left">
           <h1 className="text-[37.34px] font-bold leading-10">
             Ready to dive into HABOT?
           </h1>
@@ -18,8 +18,8 @@ export function ReadyToDiveSection() {
             community of like-minded individuals, unlock valuable resources, and
             take the first step towards realizing your entrepreneurial dreams.
           </p>
-          <div className="flex justify-center md:justify-start">
-            <Button className="w-[317px] flex items-center justify-between">
+          <div className="flex justify-center lg:justify-start">
+            <Button className="w-[317px] flex items-center justify-between gap-4">
               <p />
               Sign up Today !
               <img src="/icons/arrow-left-icon.svg" alt="" />
